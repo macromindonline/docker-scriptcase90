@@ -1,6 +1,6 @@
-FROM macromind/docker-apache-php70:1.2
+FROM macromind/docker-apache-php70:latest
 MAINTAINER MACROMIND Online <idc@macromind.online>
-LABEL description="docker image with php5.5 for scriptcase 7.1"
+LABEL description="docker image with php7.0 for scriptcase 9.0"
 
 RUN mkdir /usr/lib/php/7.0/sourceguardian
 COPY ixed.7.0.lin /usr/lib/php/7.0/sourceguardian/
